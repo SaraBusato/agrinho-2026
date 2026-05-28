@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Agro Forte</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projeto">Projeto</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Futuro Sustentável</h2>
+            <p>Equilíbrio entre produção agrícola e preservação do meio ambiente</p>
+            <button onclick="scrollToSection('sobre')">Saiba Mais</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="info-section">
+        <div class="container">
+            <h2>Sobre o Agro Forte</h2>
+            <p>O Agro Forte busca transformar a agricultura, promovendo práticas sustentáveis que respeitam o meio ambiente e garantem produtividade. Investimos em tecnologia, educação e inovação para um futuro mais verde e equilibrado.</p>
+        </div>
+    </section>
+
+    <section id="projeto" class="info-section">
+        <div class="container">
+            <h2>Nosso Projeto</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Produção Sustentável</h3>
+                    <p>Implementamos técnicas agrícolas que aumentam a produtividade sem degradar o solo e a biodiversidade.</p>
+                </div>
+                <div class="card">
+                    <h3>Energia Renovável</h3>
+                    <p>Uso de energia solar e biogás em nossas operações, reduzindo a pegada de carbono.</p>
+                </div>
+                <div class="card">
+                    <h3>Conservação Ambiental</h3>
+                    <p>Projetos de reflorestamento e preservação de nascentes garantem a saúde dos ecossistemas locais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="info-section">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contactForm">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="successMessage" class="success-message">Mensagem enviada com sucesso!</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Agro Forte - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
